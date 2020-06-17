@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AppVersionControl.Infrastructure.AppVersSetting.DiscriptionApp" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAkAAAAAgAAAQAAAEAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AppVersSetting\DiscriptionApp.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.AppVersSetting.DiscriptionAppInServer" BaseTypeListCollapsed="true">
+    <Position X="3" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAEBAAAAgAAAQAAAACAACAAACAAAAAAAAAAA=</HashCode>
+      <FileName>AppVersSetting\DiscriptionAppInServer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.Bilders.AppBuilder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAIQAAEAAAAAABAAAAAAAAQgAAAAEAAAAAAAgI=</HashCode>
+      <FileName>Bulders\AplicationVersionBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.ClientAppSetting.SettingAppClient" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClientAppSetting\SettingAppClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.FileInDBRepo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAIAIAgAAAAACAABAAAAEAAASAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>DB\FileInDBRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.VersionInDBRepo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAACAAAQAAQEAAAKAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>DB\VersionInDBRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.VersionSaveInDBRepo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="7.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAACAAAAAAAEAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>DB\VersionSaveInDBRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.VersionInFileSystemRepo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16" Y="6.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAEAAAQAAAAAAAIAAAAAEEAAAAAAgA=</HashCode>
+      <FileName>FileSystem\VersionInFileSystemRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.VersionSaveInFileSystemRepo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAgA=</HashCode>
+      <FileName>FileSystem\VersionSaveInFileSystemRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.DBInServer.FileInDBServerRepo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAIAIAABAAAACAABAAAAACAAQAAACAAAEAAAAAAA=</HashCode>
+      <FileName>DBInServer\FileInDBServerRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.DBInServer.VersionInDBServerRepo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="6.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAACAAAQAAQACAAKAAACAAEAAAAAAAA=</HashCode>
+      <FileName>DBInServer\VersionInDBServerRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.DBInServer.VersionSaveInDBServerRepo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="6" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAACAAAAAAAACAAAAAACABAAAAAAAAA=</HashCode>
+      <FileName>DBInServer\VersionSaveInDBServerRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.FileSystem.FileInSystemRepo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAIAIQAAAAAAAAABAAAAAAAAQAAAAAEAEAAAAAgA=</HashCode>
+      <FileName>FileSystem\FileInSystemRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.FileSystem.FilePathIsNullException" Collapsed="true">
+    <Position X="14.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FileSystem\FileInSystemRepo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.FileSystem.FileOrByteIsNullException" Collapsed="true">
+    <Position X="14.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FileSystem\FileInSystemRepo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.FileSystem.SaveException" Collapsed="true">
+    <Position X="16.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FileSystem\FileInSystemRepo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.FileSystem.SaveApplicationException" Collapsed="true">
+    <Position X="14.75" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FileSystem\FileInSystemRepo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.FileSystemOneVers.FileInSystemRepoOne" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CAAAAIAIQAAAAAAAAABAAAAAAAAQAAAAAEAEAAAAAgA=</HashCode>
+      <FileName>FileSystemOneVers\FileInSystemRepoOne.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.FileSystemOneVers.VersionInFileSystemRepoOne" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="6.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAEAAAQAAAAAAAIAAAAAEEAAAAAAgA=</HashCode>
+      <FileName>FileSystemOneVers\VersionInFileSystemRepoOne.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="8.77" />
+</ClassDiagram>

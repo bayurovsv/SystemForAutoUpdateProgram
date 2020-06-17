@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AppVersionControl.Domain.ApplicationVersion.AppFileSize" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="4.25" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="AppVersionControl.Domain.ApplicationVersion.AppFileSize.AppFileSizeIsNullException">
+        <TypeIdentifier>
+          <NewMemberFileName>ApplicationVersion\AppFileSize.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAARAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ApplicationVersion\AppFileSize.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppVersionControl.Domain.ApplicationVersion.FileOfVersion" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="AppVersionControl.Domain.ApplicationVersion.FileOfVersion.FileNameIsNullException">
+        <TypeIdentifier>
+          <NewMemberFileName>ApplicationVersion\FileOfVersion.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="AppVersionControl.Domain.ApplicationVersion.FileOfVersion.HashFileIsNullException">
+        <TypeIdentifier>
+          <NewMemberFileName>ApplicationVersion\FileOfVersion.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="AppVersionControl.Domain.ApplicationVersion.FileOfVersion.FileIsNullException">
+        <TypeIdentifier>
+          <NewMemberFileName>ApplicationVersion\FileOfVersion.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="AppVersionControl.Domain.ApplicationVersion.FileOfVersion.FileSizeIsNullException">
+        <TypeIdentifier>
+          <NewMemberFileName>ApplicationVersion\FileOfVersion.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="AppVersionControl.Domain.ApplicationVersion.FileOfVersion.FileExtIsNullException">
+        <TypeIdentifier>
+          <NewMemberFileName>ApplicationVersion\FileOfVersion.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="AppVersionControl.Domain.ApplicationVersion.FileOfVersion.FilePathIsNullException">
+        <TypeIdentifier>
+          <NewMemberFileName>ApplicationVersion\FileOfVersion.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QAAAAAAIAAAAAABAgAAAAAAAAAAAAIIAAAFAAABAAAA=</HashCode>
+      <FileName>ApplicationVersion\FileOfVersion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppVersionControl.Domain.ApplicationVersion.AppVersion" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="4.25" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="AppVersionControl.Domain.ApplicationVersion.AppVersion.ApplicationSizeIsNullException">
+        <TypeIdentifier>
+          <NewMemberFileName>ApplicationVersion\Version.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="AppVersionControl.Domain.ApplicationVersion.AppVersion.ApplicationNameIsNullException">
+        <TypeIdentifier>
+          <NewMemberFileName>ApplicationVersion\Version.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="AppVersionControl.Domain.ApplicationVersion.AppVersion.ApplicationNotFilesException">
+        <TypeIdentifier>
+          <NewMemberFileName>ApplicationVersion\Version.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAEIAgAAAAAAAAAAAAIAAAAAAAAAAEIA=</HashCode>
+      <FileName>ApplicationVersion\Version.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppVersionControl.Domain.ApplicationVersion.VersionNumber" BaseTypeListCollapsed="true">
+    <Position X="1" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAQEgECAAgAAAAAAAIAAAABAAAAAB2A=</HashCode>
+      <FileName>ApplicationVersion\VersionNumber.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppVersionControl.Domain.ApplicationVersion.ApplicationVersionSettings.AppVersionSetting">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAEAAEIAAA=</HashCode>
+      <FileName>ApplicationVersion\ApplicationVersionSettings\AppVersionSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppVersionControl.Domain.ApplicationVersion.ApplicationVersionSettings.DiscriptionApp" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAkAAAAAgAAAAAAAEAAACAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>ApplicationVersion\ApplicationVersionSettings\AppVersionSetting.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppVersionControl.Domain.ApplicationVersion.ApplicationVersionSettings.DiscriptionAppInServer" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgEBAAAAgAAAAAAAACAACAAACAAAAAAAAEAA=</HashCode>
+      <FileName>ApplicationVersion\ApplicationVersionSettings\AppVersionSetting.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="AppVersionControl.Domain.ApplicationVersion.ApplicationVersionSettings.IDiscriptionApp">
+    <Position X="8.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAgAAAAAAAAAAACAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>ApplicationVersion\ApplicationVersionSettings\AppVersionSetting.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AppVersionControl.Domain.Interfaces.IAssemblyAppRepo">
+    <Position X="7" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAABAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IAssemblyAppRepo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AppVersionControl.Domain.Interfaces.IFileRepo">
+    <Position X="10.5" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>CAAAAIAAAAAAAAAAAABAAAAAAAAQAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Interfaces\IFileRepo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AppVersionControl.Domain.Interfaces.IVersionRepo">
+    <Position X="7" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IVersionRepo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AppVersionControl.Domain.Interfaces.IVersionSaveRepo">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IVersionSaveRepo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="8.77" />
+</ClassDiagram>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DB.SQLite.Logger">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAABAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DB.SQLite.SQLite">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAgAAAAACAAAAAAAAAAAAAAAAABAAQAAAAAA=</HashCode>
+      <FileName>SQLite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="8.77" />
+</ClassDiagram>

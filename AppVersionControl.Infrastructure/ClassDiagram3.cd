@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AppVersionControl.Infrastructure.Bilders.AppBuilder" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAIQAAEAAAAAABAAAAAAAAQgAAAAEAAAAAAAgI=</HashCode>
+      <FileName>Bulders\IAplicationVersionBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.FileInDBRepo" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="4" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="AppVersionControl.Infrastructure.FileInDBRepo.FilePathIsNullException">
+        <TypeIdentifier>
+          <NewMemberFileName>DB\FileInDBRepo.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CAAAAIAIAgAAAAACAABAAAAEAAASAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>DB\FileInDBRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.VersionInDBRepo" BaseTypeListCollapsed="true">
+    <Position X="3" Y="4" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="AppVersionControl.Infrastructure.VersionInDBRepo.FilePathIsNullException">
+        <TypeIdentifier>
+          <NewMemberFileName>DB\VersionInDBRepo.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAACAAAQAAQEAAACAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>DB\VersionInDBRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.VersionSaveInDBRepo" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAACAAAAAAAEAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>DB\VersionSaveInDBRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.VersionInFileSystemRepo" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="14.25" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="AppVersionControl.Infrastructure.VersionInFileSystemRepo.FilePathIsNullException">
+        <TypeIdentifier>
+          <NewMemberFileName>FileSystem\VersionInFileSystemRepo.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="AppVersionControl.Infrastructure.VersionInFileSystemRepo.AppVersionIsNullException">
+        <TypeIdentifier>
+          <NewMemberFileName>FileSystem\VersionInFileSystemRepo.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="AppVersionControl.Infrastructure.VersionInFileSystemRepo.FileContainIsNullException">
+        <TypeIdentifier>
+          <NewMemberFileName>FileSystem\VersionInFileSystemRepo.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAEAAAQAAAAAAAAAAAAAEEAAAAAAgA=</HashCode>
+      <FileName>FileSystem\VersionInFileSystemRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.VersionSaveInFileSystemRepo" BaseTypeListCollapsed="true">
+    <Position X="3" Y="14.25" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="AppVersionControl.Infrastructure.VersionSaveInFileSystemRepo.VersionMeta">
+        <TypeIdentifier>
+          <NewMemberFileName>FileSystem\VersionSaveInFileSystemRepo.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="AppVersionControl.Infrastructure.VersionSaveInFileSystemRepo.SaveApplicationException">
+        <TypeIdentifier>
+          <NewMemberFileName>FileSystem\VersionSaveInFileSystemRepo.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAgA=</HashCode>
+      <FileName>FileSystem\VersionSaveInFileSystemRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.DBInServer.FileInDBServerRepo" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="9.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAIAIAABAAAACAABAAAAACAAQAAACAAAEAAAAAAA=</HashCode>
+      <FileName>DBInServer\FileInDBServerRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.DBInServer.VersionInDBServerRepo" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="9.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAACAAAQAAQACAACAAACAAEAAAAAAAA=</HashCode>
+      <FileName>DBInServer\VersionInDBServerRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.DBInServer.VersionSaveInDBServerRepo" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="9.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAACAAAAAAAACAAAAAACABAAAAAAAAA=</HashCode>
+      <FileName>DBInServer\VersionSaveInDBServerRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.FileSystem.FileInSystemRepo" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="14.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CAAAAIAIQAAAAAAAAABAAAAAAAAQAAAAAEAEAAAAAgA=</HashCode>
+      <FileName>FileSystem\FileInSystemRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.FileSystem.FilePathIsNullException">
+    <Position X="11.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FileSystem\FileInSystemRepo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.FileSystem.FileOrByteIsNullException">
+    <Position X="11.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FileSystem\FileInSystemRepo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.FileSystem.SaveException">
+    <Position X="9.5" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FileSystem\FileInSystemRepo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.FileSystem.SaveApplicationException">
+    <Position X="9.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FileSystem\FileInSystemRepo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.FileSystemOneVers.FileInSystemRepoOne" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="4" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="AppVersionControl.Infrastructure.FileSystemOneVers.FileInSystemRepoOne.VersionMeta">
+        <TypeIdentifier>
+          <NewMemberFileName>FileSystemOneVers\FileInSystemRepoOne.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CAAAAIAIQAAAAAAAAABAAAAAAAAQAAAAAEAEAAAAAgA=</HashCode>
+      <FileName>FileSystemOneVers\FileInSystemRepoOne.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AppVersionControl.Infrastructure.FileSystemOneVers.VersionInFileSystemRepoOne" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="4" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="AppVersionControl.Infrastructure.FileSystemOneVers.VersionInFileSystemRepoOne.VersionMeta">
+        <TypeIdentifier>
+          <NewMemberFileName>FileSystemOneVers\VersionInFileSystemRepoOne.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAEAAAQAAAAAAAAAAAAAEEAAAAAAgA=</HashCode>
+      <FileName>FileSystemOneVers\VersionInFileSystemRepoOne.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="AppVersionControl.Infrastructure.Bilders.IApplicationVersionBuilder">
+    <Position X="3.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bulders\IAplicationVersionBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="8.77" />
+</ClassDiagram>
